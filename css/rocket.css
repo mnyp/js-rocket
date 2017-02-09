@@ -1,10 +1,6 @@
-body {
-	font-family: 'Indie Flower', cursive;
-}
+body { font-family: 'Indie Flower', cursive; }
 
-h1 {
-	text-align: center;
-}
+h1 { text-align: center; }
 
 .button {
 	display: inline-block;
@@ -223,6 +219,8 @@ body.body-state4 .rocket {
 	bottom: 1000px;
 }
 
+body.body-state6 .rocket { transition: none; }
+
 .state3,
 .state4,
 .state5 {
@@ -244,7 +242,8 @@ body.body-state5 .messagestate5 { display: inline-block; }
 
 body.body-state3 .cloud.default,
 body.body-state4 .cloud.default { display: block; }
-body.body-state4 .cloud.liftoff,
+body.body-state4 .cloud.liftoff-1,
+body.body-state4 .cloud.liftoff-2,
 body.body-state4 .successmessage { display: block; }
 body.body-state5 .cloud.fail { display: block; }
 
